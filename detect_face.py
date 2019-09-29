@@ -32,12 +32,12 @@ def detect_face():
             engine.runAndWait()
             return name
     #if face was not recognized, ask for name and store face
-    engine.say("I don't think I've met you before, what's your name?")
+    engine.say("I haven't met you before, what's your name?")
     engine.runAndWait()
     name = input()
     engine.say("Nice to meet you %s, my name is Jeremy." % name)
     engine.runAndWait()
-    cv2.imwrite("images/%s_%s.png" % name, img_o, randrage(10000000)) 
+    cv2.imwrite("images/%s_%s.png" % (name, randrange(10000000)), img_o) 
     return name
 
 if __name__ == "__main__":

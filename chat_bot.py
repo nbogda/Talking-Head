@@ -36,7 +36,7 @@ def chat(name):
                 engine.runAndWait()
                 continue
             print("You said: %s" % text)
-            if text == "goodbye" or text == "bye":
+            if text == "good night sweet prince" or text == "goodnight sweet prince":
                 engine.say("%s %s" % (byes[randrange(len(byes))], name))
                 engine.runAndWait()
                 break
