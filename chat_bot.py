@@ -23,7 +23,7 @@ def chat(name):
     with sr.Microphone(device_index=7) as source:
         while(1):
             r.adjust_for_ambient_noise(source)
-            print("Waiting on speech from user")
+            print("\n************** SPEAK NOW *************\n")
             audio = None
             text = None
             try:
