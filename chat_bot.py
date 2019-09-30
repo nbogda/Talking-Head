@@ -6,7 +6,7 @@ import os
 
 def chat(name):
 
-    cw = CleverWrap('CC8x7w095WZ9FNYrDEvwgR5qK7w')
+    cw = CleverWrap('API_KEY')
 
     #random greetings to start off the conversation
     greetings = ["How are you doing today?", "What's up dude?", "How goes it?", "How are you?", "What's on your mind?", "How's it hanging bro?", "What's going on my dude?"]
