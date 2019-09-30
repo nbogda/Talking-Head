@@ -5,4 +5,6 @@
 
 <p>Details: Jeremy was created using Python. His facial recognition, speech to text, and text to speech are all handled using Python libraries (dlib, speech_recognizer, espeak). His chatty capabilities are handled using Cleverbot's API.</p>
 
+<p>Jeremy won VolHack's 2019 best presentation award.</p>
+
 
